@@ -58,23 +58,73 @@ nav li:hover{
     background-color: black;
     text-align: center;
 }
-.small-img{
+#small-img{
     width: 300px;
     height: 200px;
-    display: inline-block;
+    margin: 10px, auto;
 }
 .container{
     position: relative;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.first-three{
-    display: inline-block;
-    position: absolute;
+.row-1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
-.last-two{
+.row-2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.small-img-1, .small-img-2, .small-img-3{
     display: inline-block;
-    position: absolute;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+.small-img-4{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.small-img-5{
+    margin-right: auto;
+    margin-left: 20px;
+}
+.img-text{
+    display: block;
+}
+
+.section-3{
+    position: relative;
 }
 .location{
-    position: relative;
-    top: 650px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
+.location h2{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.location h4{
+    display: inline-block;
+}
+.location-img{
+    height: 500px;
+    position: relative;
+}
+.downtown{
+    background-color: black;
+}
+.east-bayside{
+    background-color: black;
+}
+.oakdale{
+    background-color: black;
+}
+
